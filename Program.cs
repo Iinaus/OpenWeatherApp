@@ -6,12 +6,12 @@ class Program
     static async Task Main(string[] args)
     {
         try {
-            var weatherNurmijarvi = await FetchData("Nurmijärvi");
-            var weatherRovaniemi = await FetchData("Rovaniemi");
+            Console.WriteLine("Syötä paikkakunta:");
+            string city = Console.ReadLine();
 
-            printWeatherInfo(weatherNurmijarvi);
-            Console.WriteLine("-----------------------");
-            printWeatherInfo(weatherRovaniemi);   
+            var weatherCity = await FetchData(city);
+
+            printWeatherInfo(weatherCity); 
                                 
         } catch (System.Exception e) {
             Console.WriteLine($"Virheen tyyppi: {e.GetType()}");
