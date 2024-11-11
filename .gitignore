@@ -1,0 +1,55 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]eploy/
+[Dd]ebug/
+[Dd]ebugFull/
+[Dd]ebugNightly/
+[Dd]ebug-/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.dll
+
+# Windows Installer files
+*.pdb
+
+# Windows Installer files
+*.exe
+
+# Windows Installer files
+*.pdb
+
+# Windows Installer files
+*.apk
+*.apk
+
+# Windows Installer files
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET
+bin/
+obj/
