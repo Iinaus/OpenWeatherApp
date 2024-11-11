@@ -10,7 +10,7 @@
 
 ## About
 
-This is a simple .NET application that fetches and displays weather information for two cities, Nurmijärvi and Rovaniemi, using the OpenWeatherMap API. The application retrieves the current weather data and presents it in a user-friendly format, including temperature, humidity, and other weather statistics. The project was developed as part of the coursework for an object-oriented programming (OOP) course at Lapland University of Applied Sciences.
+This is a simple .NET application that fetches and displays weather information for a city specified by the user, using the OpenWeatherMap API. The application retrieves the current weather data and presents it in a user-friendly format, including temperature, humidity, and other weather statistics. The project was developed as part of the coursework for an object-oriented programming (OOP) course at Lapland University of Applied Sciences.
 
 With this exercise, we practiced:
 - Fetching data from a third-party API (OpenWeatherMap).
@@ -21,7 +21,7 @@ With this exercise, we practiced:
 
 ## Features
 
-- Fetches weather data for two cities: Nurmijärvi and Rovaniemi.
+- Allows the user to specify a city name to retrieve weather data dynamically.
 - Displays the current temperature, feels like temperature, maximum and minimum temperatures, and humidity.
 - Converts Unix timestamp to a human-readable date.
 - Uses environment variables for storing the API key securely.
@@ -35,7 +35,7 @@ Instructions on how to set up and run the project.
 - .NET 6.0 or higher
 - [OpenWeatherMap API key](https://openweathermap.org/api)
     - You need to sign up and get your own API key
-- [dotenv.net](https://github.com/huobby/dotenv.net) 
+- dotenv.net
     - library for loading environment variables
 
 ### Dev setup step-by-step
