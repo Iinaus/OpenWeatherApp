@@ -53,3 +53,6 @@ artifacts/
 # .NET
 bin/
 obj/
+
+# Environmet variable
+.env

@@ -1,10 +1,7 @@
-﻿using System;
+﻿using System.Text.Json;
+using dotenv.net;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
-    }
+    
 }
-
